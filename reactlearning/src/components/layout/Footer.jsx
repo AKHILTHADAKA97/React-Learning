@@ -1,13 +1,16 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>
-      <footer>
-        <p>&copy; 2023 My App. All rights reserved.</p>
-      </footer>
-    </div>
-  )
-}
+    <footer className="footer">
+      <div className="footer-content">
+        <p>&copy; 2024 Modern React App. Built with ❤️ using React 19 & Router 6</p>
+        <p>All rights reserved.</p>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
+
